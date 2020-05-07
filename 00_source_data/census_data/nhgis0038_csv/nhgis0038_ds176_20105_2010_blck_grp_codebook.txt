@@ -1,0 +1,613 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0038_ds176_20105_2010_blck_grp'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2006-2010
+Geographic level: Block Group (by State--County--Census Tract)
+Extent:           North Carolina
+Dataset:          2010 American Community Survey: 5-Year Data [2006-2010, Block Groups & Larger Areas]
+   NHGIS code:    2006_2010_ACS5a
+   NHGIS ID:      ds176
+Breakdown(s):     Geographic Subarea:
+                     Total area (00)
+Data type(s):     (E) Estimates
+                  (M) Margins of error
+ 
+Tables:
+ 
+1. Total Population
+   Universe:    Total population
+   Source code: B01003
+   NHGIS code:  JMA
+ 
+2. Race
+   Universe:    Total population
+   Source code: B02001
+   NHGIS code:  JMB
+ 
+3. Means of Transportation to Work by Travel Time to Work
+   Universe:    Workers 16 years and over who did not work at home
+   Source code: C08134
+   NHGIS code:  JMX
+ 
+4. Aggregate Travel Time to Work (in Minutes) of Workers by Travel Time to Work
+   Universe:    Workers 16 years and over who did not work at home
+   Source code: B08135
+   NHGIS code:  JMY
+ 
+5. Aggregate Travel Time to Work (in Minutes) of Workers by Means of Transportation to Work
+   Universe:    Workers 16 years and over who did not work at home
+   Source code: C08136
+   NHGIS code:  JMZ
+ 
+6. Means of Transportation to Work
+   Universe:    Workers 16 years and over
+   Source code: B08301
+   NHGIS code:  JM0
+ 
+7. Time Leaving Home to Go to Work
+   Universe:    Workers 16 years and over who did not work at home
+   Source code: B08302
+   NHGIS code:  JM1
+ 
+8. Travel Time to Work
+   Universe:    Workers 16 years and over who did not work at home
+   Source code: B08303
+   NHGIS code:  JM2
+ 
+9. Sex by Educational Attainment for the Population 25 Years and Over
+   Universe:    Population 25 years and over
+   Source code: B15002
+   NHGIS code:  JN9
+ 
+10. Median Household Income in the Past 12 Months (in 2010 Inflation-Adjusted Dollars) (White Alone Householder)
+    Universe:    Households with a householder who is White alone
+    Source code: B19013A
+    NHGIS code:  JOJ
+ 
+11. Median Household Income in the Past 12 Months (in 2010 Inflation-Adjusted Dollars) (Black or African American Alone Householder)
+    Universe:    Households with a householder who is Black or African American alone
+    Source code: B19013B
+    NHGIS code:  JOK
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        BLKGRPA:     Block Group Code
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Reservation with Trust Lands; trust lands only Code
+        AITSCEA:     Tribal Subdivision/Remainder Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        CSAA:        Combined Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        NECTAA:      New England City and Town Area Code
+        CNECTAA:     Combined New England City and Town Area Code
+        NECTADIVA:   New England City and Town Area Division Code
+        UAA:         Urban Area Code
+        CDCURRA:     Congressional District (111th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        PUMA5A:      Public Use Microdata Sample Area (PUMA) Code
+        BTTRA:       Tribal Census Tract Code
+        BTBGA:       Tribal Block Group Code
+ 
+Data Type (E):
+    Estimates
+ 
+        NAME_E:      Area Name
+ 
+    Table 1:     Total Population
+    Universe:    Total population
+    Source code: B01003
+    NHGIS code:  JMA
+        JMAE001:     Total
+ 
+    Table 2:     Race
+    Universe:    Total population
+    Source code: B02001
+    NHGIS code:  JMB
+        JMBE001:     Total
+        JMBE002:     White alone
+        JMBE003:     Black or African American alone
+        JMBE004:     American Indian and Alaska Native alone
+        JMBE005:     Asian alone
+        JMBE006:     Native Hawaiian and Other Pacific Islander alone
+        JMBE007:     Some other race alone
+        JMBE008:     Two or more races
+        JMBE009:     Two or more races: Two races including Some other race
+        JMBE010:     Two or more races: Two races excluding Some other race, and three or more races
+ 
+    Table 3:     Means of Transportation to Work by Travel Time to Work
+    Universe:    Workers 16 years and over who did not work at home
+    Source code: C08134
+    NHGIS code:  JMX
+        JMXE001:     Total
+        JMXE002:     Less than 10 minutes
+        JMXE003:     10 to 14 minutes
+        JMXE004:     15 to 19 minutes
+        JMXE005:     20 to 24 minutes
+        JMXE006:     25 to 29 minutes
+        JMXE007:     30 to 34 minutes
+        JMXE008:     35 to 44 minutes
+        JMXE009:     45 to 59 minutes
+        JMXE010:     60 or more minutes
+        JMXE011:     Car, truck, or van - drove alone
+        JMXE012:     Car, truck, or van - drove alone: Less than 10 minutes
+        JMXE013:     Car, truck, or van - drove alone: 10 to 14 minutes
+        JMXE014:     Car, truck, or van - drove alone: 15 to 19 minutes
+        JMXE015:     Car, truck, or van - drove alone: 20 to 24 minutes
+        JMXE016:     Car, truck, or van - drove alone: 25 to 29 minutes
+        JMXE017:     Car, truck, or van - drove alone: 30 to 34 minutes
+        JMXE018:     Car, truck, or van - drove alone: 35 to 44 minutes
+        JMXE019:     Car, truck, or van - drove alone: 45 to 59 minutes
+        JMXE020:     Car, truck, or van - drove alone: 60 or more minutes
+        JMXE021:     Car, truck, or van - carpooled
+        JMXE022:     Car, truck, or van - carpooled: Less than 10 minutes
+        JMXE023:     Car, truck, or van - carpooled: 10 to 14 minutes
+        JMXE024:     Car, truck, or van - carpooled: 15 to 19 minutes
+        JMXE025:     Car, truck, or van - carpooled: 20 to 24 minutes
+        JMXE026:     Car, truck, or van - carpooled: 25 to 29 minutes
+        JMXE027:     Car, truck, or van - carpooled: 30 to 34 minutes
+        JMXE028:     Car, truck, or van - carpooled: 35 to 44 minutes
+        JMXE029:     Car, truck, or van - carpooled: 45 to 59 minutes
+        JMXE030:     Car, truck, or van - carpooled: 60 or more minutes
+        JMXE031:     Public transportation (excluding taxicab)
+        JMXE032:     Public transportation (excluding taxicab): Less than 10 minutes
+        JMXE033:     Public transportation (excluding taxicab): 10 to 14 minutes
+        JMXE034:     Public transportation (excluding taxicab): 15 to 19 minutes
+        JMXE035:     Public transportation (excluding taxicab): 20 to 24 minutes
+        JMXE036:     Public transportation (excluding taxicab): 25 to 29 minutes
+        JMXE037:     Public transportation (excluding taxicab): 30 to 34 minutes
+        JMXE038:     Public transportation (excluding taxicab): 35 to 44 minutes
+        JMXE039:     Public transportation (excluding taxicab): 45 to 59 minutes
+        JMXE040:     Public transportation (excluding taxicab): 60 or more minutes
+        JMXE041:     Taxicab, motorcycle, bicycle, walked, or other means
+        JMXE042:     Taxicab, motorcycle, bicycle, walked, or other means: Less than 10 minutes
+        JMXE043:     Taxicab, motorcycle, bicycle, walked, or other means: 10 to 14 minutes
+        JMXE044:     Taxicab, motorcycle, bicycle, walked, or other means: 15 to 19 minutes
+        JMXE045:     Taxicab, motorcycle, bicycle, walked, or other means: 20 to 24 minutes
+        JMXE046:     Taxicab, motorcycle, bicycle, walked, or other means: 25 to 29 minutes
+        JMXE047:     Taxicab, motorcycle, bicycle, walked, or other means: 30 to 34 minutes
+        JMXE048:     Taxicab, motorcycle, bicycle, walked, or other means: 35 to 44 minutes
+        JMXE049:     Taxicab, motorcycle, bicycle, walked, or other means: 45 to 59 minutes
+        JMXE050:     Taxicab, motorcycle, bicycle, walked, or other means: 60 or more minutes
+ 
+    Table 4:     Aggregate Travel Time to Work (in Minutes) of Workers by Travel Time to Work
+    Universe:    Workers 16 years and over who did not work at home
+    Source code: B08135
+    NHGIS code:  JMY
+        JMYE001:     Aggregate travel time to work (in minutes)
+        JMYE002:     Aggregate travel time to work (in minutes): Less than 10 minutes
+        JMYE003:     Aggregate travel time to work (in minutes): 10 to 14 minutes
+        JMYE004:     Aggregate travel time to work (in minutes): 15 to 19 minutes
+        JMYE005:     Aggregate travel time to work (in minutes): 20 to 24 minutes
+        JMYE006:     Aggregate travel time to work (in minutes): 25 to 29 minutes
+        JMYE007:     Aggregate travel time to work (in minutes): 30 to 34 minutes
+        JMYE008:     Aggregate travel time to work (in minutes): 35 to 44 minutes
+        JMYE009:     Aggregate travel time to work (in minutes): 45 to 59 minutes
+        JMYE010:     Aggregate travel time to work (in minutes): 60 or more minutes
+ 
+    Table 5:     Aggregate Travel Time to Work (in Minutes) of Workers by Means of Transportation to Work
+    Universe:    Workers 16 years and over who did not work at home
+    Source code: C08136
+    NHGIS code:  JMZ
+        JMZE001:     Aggregate travel time to work (in minutes)
+        JMZE002:     Aggregate travel time to work (in minutes): Car, truck, or van - drove alone
+        JMZE003:     Aggregate travel time to work (in minutes): Car, truck, or van - carpooled
+        JMZE004:     Aggregate travel time to work (in minutes): Public transportation (excluding taxicab)
+        JMZE005:     Aggregate travel time to work (in minutes): Taxicab, motorcycle, bicycle, walked, or other means
+ 
+    Table 6:     Means of Transportation to Work
+    Universe:    Workers 16 years and over
+    Source code: B08301
+    NHGIS code:  JM0
+        JM0E001:     Total
+        JM0E002:     Car, truck, or van
+        JM0E003:     Car, truck, or van: Drove alone
+        JM0E004:     Car, truck, or van: Carpooled
+        JM0E005:     Car, truck, or van: Carpooled: In 2-person carpool
+        JM0E006:     Car, truck, or van: Carpooled: In 3-person carpool
+        JM0E007:     Car, truck, or van: Carpooled: In 4-person carpool
+        JM0E008:     Car, truck, or van: Carpooled: In 5- or 6-person carpool
+        JM0E009:     Car, truck, or van: Carpooled: In 7-or-more-person carpool
+        JM0E010:     Public transportation (excluding taxicab)
+        JM0E011:     Public transportation (excluding taxicab): Bus or trolley bus
+        JM0E012:     Public transportation (excluding taxicab): Streetcar or trolley car (carro publico in Puerto Rico)
+        JM0E013:     Public transportation (excluding taxicab): Subway or elevated
+        JM0E014:     Public transportation (excluding taxicab): Railroad
+        JM0E015:     Public transportation (excluding taxicab): Ferryboat
+        JM0E016:     Taxicab
+        JM0E017:     Motorcycle
+        JM0E018:     Bicycle
+        JM0E019:     Walked
+        JM0E020:     Other means
+        JM0E021:     Worked at home
+ 
+    Table 7:     Time Leaving Home to Go to Work
+    Universe:    Workers 16 years and over who did not work at home
+    Source code: B08302
+    NHGIS code:  JM1
+        JM1E001:     Total
+        JM1E002:     12:00 a.m. to 4:59 a.m.
+        JM1E003:     5:00 a.m. to 5:29 a.m.
+        JM1E004:     5:30 a.m. to 5:59 a.m.
+        JM1E005:     6:00 a.m. to 6:29 a.m.
+        JM1E006:     6:30 a.m. to 6:59 a.m.
+        JM1E007:     7:00 a.m. to 7:29 a.m.
+        JM1E008:     7:30 a.m. to 7:59 a.m.
+        JM1E009:     8:00 a.m. to 8:29 a.m.
+        JM1E010:     8:30 a.m. to 8:59 a.m.
+        JM1E011:     9:00 a.m. to 9:59 a.m.
+        JM1E012:     10:00 a.m. to 10:59 a.m.
+        JM1E013:     11:00 a.m. to 11:59 a.m.
+        JM1E014:     12:00 p.m. to 3:59 p.m.
+        JM1E015:     4:00 p.m. to 11:59 p.m.
+ 
+    Table 8:     Travel Time to Work
+    Universe:    Workers 16 years and over who did not work at home
+    Source code: B08303
+    NHGIS code:  JM2
+        JM2E001:     Total
+        JM2E002:     Less than 5 minutes
+        JM2E003:     5 to 9 minutes
+        JM2E004:     10 to 14 minutes
+        JM2E005:     15 to 19 minutes
+        JM2E006:     20 to 24 minutes
+        JM2E007:     25 to 29 minutes
+        JM2E008:     30 to 34 minutes
+        JM2E009:     35 to 39 minutes
+        JM2E010:     40 to 44 minutes
+        JM2E011:     45 to 59 minutes
+        JM2E012:     60 to 89 minutes
+        JM2E013:     90 or more minutes
+ 
+    Table 9:     Sex by Educational Attainment for the Population 25 Years and Over
+    Universe:    Population 25 years and over
+    Source code: B15002
+    NHGIS code:  JN9
+        JN9E001:     Total
+        JN9E002:     Male
+        JN9E003:     Male: No schooling completed
+        JN9E004:     Male: Nursery to 4th grade
+        JN9E005:     Male: 5th and 6th grade
+        JN9E006:     Male: 7th and 8th grade
+        JN9E007:     Male: 9th grade
+        JN9E008:     Male: 10th grade
+        JN9E009:     Male: 11th grade
+        JN9E010:     Male: 12th grade, no diploma
+        JN9E011:     Male: High school graduate, GED, or alternative
+        JN9E012:     Male: Some college, less than 1 year
+        JN9E013:     Male: Some college, 1 or more years, no degree
+        JN9E014:     Male: Associate's degree
+        JN9E015:     Male: Bachelor's degree
+        JN9E016:     Male: Master's degree
+        JN9E017:     Male: Professional school degree
+        JN9E018:     Male: Doctorate degree
+        JN9E019:     Female
+        JN9E020:     Female: No schooling completed
+        JN9E021:     Female: Nursery to 4th grade
+        JN9E022:     Female: 5th and 6th grade
+        JN9E023:     Female: 7th and 8th grade
+        JN9E024:     Female: 9th grade
+        JN9E025:     Female: 10th grade
+        JN9E026:     Female: 11th grade
+        JN9E027:     Female: 12th grade, no diploma
+        JN9E028:     Female: High school graduate, GED, or alternative
+        JN9E029:     Female: Some college, less than 1 year
+        JN9E030:     Female: Some college, 1 or more years, no degree
+        JN9E031:     Female: Associate's degree
+        JN9E032:     Female: Bachelor's degree
+        JN9E033:     Female: Master's degree
+        JN9E034:     Female: Professional school degree
+        JN9E035:     Female: Doctorate degree
+ 
+    Table 10:    Median Household Income in the Past 12 Months (in 2010 Inflation-Adjusted Dollars) (White Alone Householder)
+    Universe:    Households with a householder who is White alone
+    Source code: B19013A
+    NHGIS code:  JOJ
+        JOJE001:     Median household income in the past 12 months (in 2010 inflation-adjusted dollars)
+ 
+    Table 11:    Median Household Income in the Past 12 Months (in 2010 Inflation-Adjusted Dollars) (Black or African American Alone Householder)
+    Universe:    Households with a householder who is Black or African American alone
+    Source code: B19013B
+    NHGIS code:  JOK
+        JOKE001:     Median household income in the past 12 months (in 2010 inflation-adjusted dollars)
+ 
+Data Type (M):
+    Margins of error
+ 
+        NAME_M:      Area Name
+ 
+    Table 1:     Total Population
+    Universe:    Total population
+    Source code: B01003
+    NHGIS code:  JMA
+        JMAM001:     Total
+ 
+    Table 2:     Race
+    Universe:    Total population
+    Source code: B02001
+    NHGIS code:  JMB
+        JMBM001:     Total
+        JMBM002:     White alone
+        JMBM003:     Black or African American alone
+        JMBM004:     American Indian and Alaska Native alone
+        JMBM005:     Asian alone
+        JMBM006:     Native Hawaiian and Other Pacific Islander alone
+        JMBM007:     Some other race alone
+        JMBM008:     Two or more races
+        JMBM009:     Two or more races: Two races including Some other race
+        JMBM010:     Two or more races: Two races excluding Some other race, and three or more races
+ 
+    Table 3:     Means of Transportation to Work by Travel Time to Work
+    Universe:    Workers 16 years and over who did not work at home
+    Source code: C08134
+    NHGIS code:  JMX
+        JMXM001:     Total
+        JMXM002:     Less than 10 minutes
+        JMXM003:     10 to 14 minutes
+        JMXM004:     15 to 19 minutes
+        JMXM005:     20 to 24 minutes
+        JMXM006:     25 to 29 minutes
+        JMXM007:     30 to 34 minutes
+        JMXM008:     35 to 44 minutes
+        JMXM009:     45 to 59 minutes
+        JMXM010:     60 or more minutes
+        JMXM011:     Car, truck, or van - drove alone
+        JMXM012:     Car, truck, or van - drove alone: Less than 10 minutes
+        JMXM013:     Car, truck, or van - drove alone: 10 to 14 minutes
+        JMXM014:     Car, truck, or van - drove alone: 15 to 19 minutes
+        JMXM015:     Car, truck, or van - drove alone: 20 to 24 minutes
+        JMXM016:     Car, truck, or van - drove alone: 25 to 29 minutes
+        JMXM017:     Car, truck, or van - drove alone: 30 to 34 minutes
+        JMXM018:     Car, truck, or van - drove alone: 35 to 44 minutes
+        JMXM019:     Car, truck, or van - drove alone: 45 to 59 minutes
+        JMXM020:     Car, truck, or van - drove alone: 60 or more minutes
+        JMXM021:     Car, truck, or van - carpooled
+        JMXM022:     Car, truck, or van - carpooled: Less than 10 minutes
+        JMXM023:     Car, truck, or van - carpooled: 10 to 14 minutes
+        JMXM024:     Car, truck, or van - carpooled: 15 to 19 minutes
+        JMXM025:     Car, truck, or van - carpooled: 20 to 24 minutes
+        JMXM026:     Car, truck, or van - carpooled: 25 to 29 minutes
+        JMXM027:     Car, truck, or van - carpooled: 30 to 34 minutes
+        JMXM028:     Car, truck, or van - carpooled: 35 to 44 minutes
+        JMXM029:     Car, truck, or van - carpooled: 45 to 59 minutes
+        JMXM030:     Car, truck, or van - carpooled: 60 or more minutes
+        JMXM031:     Public transportation (excluding taxicab)
+        JMXM032:     Public transportation (excluding taxicab): Less than 10 minutes
+        JMXM033:     Public transportation (excluding taxicab): 10 to 14 minutes
+        JMXM034:     Public transportation (excluding taxicab): 15 to 19 minutes
+        JMXM035:     Public transportation (excluding taxicab): 20 to 24 minutes
+        JMXM036:     Public transportation (excluding taxicab): 25 to 29 minutes
+        JMXM037:     Public transportation (excluding taxicab): 30 to 34 minutes
+        JMXM038:     Public transportation (excluding taxicab): 35 to 44 minutes
+        JMXM039:     Public transportation (excluding taxicab): 45 to 59 minutes
+        JMXM040:     Public transportation (excluding taxicab): 60 or more minutes
+        JMXM041:     Taxicab, motorcycle, bicycle, walked, or other means
+        JMXM042:     Taxicab, motorcycle, bicycle, walked, or other means: Less than 10 minutes
+        JMXM043:     Taxicab, motorcycle, bicycle, walked, or other means: 10 to 14 minutes
+        JMXM044:     Taxicab, motorcycle, bicycle, walked, or other means: 15 to 19 minutes
+        JMXM045:     Taxicab, motorcycle, bicycle, walked, or other means: 20 to 24 minutes
+        JMXM046:     Taxicab, motorcycle, bicycle, walked, or other means: 25 to 29 minutes
+        JMXM047:     Taxicab, motorcycle, bicycle, walked, or other means: 30 to 34 minutes
+        JMXM048:     Taxicab, motorcycle, bicycle, walked, or other means: 35 to 44 minutes
+        JMXM049:     Taxicab, motorcycle, bicycle, walked, or other means: 45 to 59 minutes
+        JMXM050:     Taxicab, motorcycle, bicycle, walked, or other means: 60 or more minutes
+ 
+    Table 4:     Aggregate Travel Time to Work (in Minutes) of Workers by Travel Time to Work
+    Universe:    Workers 16 years and over who did not work at home
+    Source code: B08135
+    NHGIS code:  JMY
+        JMYM001:     Aggregate travel time to work (in minutes)
+        JMYM002:     Aggregate travel time to work (in minutes): Less than 10 minutes
+        JMYM003:     Aggregate travel time to work (in minutes): 10 to 14 minutes
+        JMYM004:     Aggregate travel time to work (in minutes): 15 to 19 minutes
+        JMYM005:     Aggregate travel time to work (in minutes): 20 to 24 minutes
+        JMYM006:     Aggregate travel time to work (in minutes): 25 to 29 minutes
+        JMYM007:     Aggregate travel time to work (in minutes): 30 to 34 minutes
+        JMYM008:     Aggregate travel time to work (in minutes): 35 to 44 minutes
+        JMYM009:     Aggregate travel time to work (in minutes): 45 to 59 minutes
+        JMYM010:     Aggregate travel time to work (in minutes): 60 or more minutes
+ 
+    Table 5:     Aggregate Travel Time to Work (in Minutes) of Workers by Means of Transportation to Work
+    Universe:    Workers 16 years and over who did not work at home
+    Source code: C08136
+    NHGIS code:  JMZ
+        JMZM001:     Aggregate travel time to work (in minutes)
+        JMZM002:     Aggregate travel time to work (in minutes): Car, truck, or van - drove alone
+        JMZM003:     Aggregate travel time to work (in minutes): Car, truck, or van - carpooled
+        JMZM004:     Aggregate travel time to work (in minutes): Public transportation (excluding taxicab)
+        JMZM005:     Aggregate travel time to work (in minutes): Taxicab, motorcycle, bicycle, walked, or other means
+ 
+    Table 6:     Means of Transportation to Work
+    Universe:    Workers 16 years and over
+    Source code: B08301
+    NHGIS code:  JM0
+        JM0M001:     Total
+        JM0M002:     Car, truck, or van
+        JM0M003:     Car, truck, or van: Drove alone
+        JM0M004:     Car, truck, or van: Carpooled
+        JM0M005:     Car, truck, or van: Carpooled: In 2-person carpool
+        JM0M006:     Car, truck, or van: Carpooled: In 3-person carpool
+        JM0M007:     Car, truck, or van: Carpooled: In 4-person carpool
+        JM0M008:     Car, truck, or van: Carpooled: In 5- or 6-person carpool
+        JM0M009:     Car, truck, or van: Carpooled: In 7-or-more-person carpool
+        JM0M010:     Public transportation (excluding taxicab)
+        JM0M011:     Public transportation (excluding taxicab): Bus or trolley bus
+        JM0M012:     Public transportation (excluding taxicab): Streetcar or trolley car (carro publico in Puerto Rico)
+        JM0M013:     Public transportation (excluding taxicab): Subway or elevated
+        JM0M014:     Public transportation (excluding taxicab): Railroad
+        JM0M015:     Public transportation (excluding taxicab): Ferryboat
+        JM0M016:     Taxicab
+        JM0M017:     Motorcycle
+        JM0M018:     Bicycle
+        JM0M019:     Walked
+        JM0M020:     Other means
+        JM0M021:     Worked at home
+ 
+    Table 7:     Time Leaving Home to Go to Work
+    Universe:    Workers 16 years and over who did not work at home
+    Source code: B08302
+    NHGIS code:  JM1
+        JM1M001:     Total
+        JM1M002:     12:00 a.m. to 4:59 a.m.
+        JM1M003:     5:00 a.m. to 5:29 a.m.
+        JM1M004:     5:30 a.m. to 5:59 a.m.
+        JM1M005:     6:00 a.m. to 6:29 a.m.
+        JM1M006:     6:30 a.m. to 6:59 a.m.
+        JM1M007:     7:00 a.m. to 7:29 a.m.
+        JM1M008:     7:30 a.m. to 7:59 a.m.
+        JM1M009:     8:00 a.m. to 8:29 a.m.
+        JM1M010:     8:30 a.m. to 8:59 a.m.
+        JM1M011:     9:00 a.m. to 9:59 a.m.
+        JM1M012:     10:00 a.m. to 10:59 a.m.
+        JM1M013:     11:00 a.m. to 11:59 a.m.
+        JM1M014:     12:00 p.m. to 3:59 p.m.
+        JM1M015:     4:00 p.m. to 11:59 p.m.
+ 
+    Table 8:     Travel Time to Work
+    Universe:    Workers 16 years and over who did not work at home
+    Source code: B08303
+    NHGIS code:  JM2
+        JM2M001:     Total
+        JM2M002:     Less than 5 minutes
+        JM2M003:     5 to 9 minutes
+        JM2M004:     10 to 14 minutes
+        JM2M005:     15 to 19 minutes
+        JM2M006:     20 to 24 minutes
+        JM2M007:     25 to 29 minutes
+        JM2M008:     30 to 34 minutes
+        JM2M009:     35 to 39 minutes
+        JM2M010:     40 to 44 minutes
+        JM2M011:     45 to 59 minutes
+        JM2M012:     60 to 89 minutes
+        JM2M013:     90 or more minutes
+ 
+    Table 9:     Sex by Educational Attainment for the Population 25 Years and Over
+    Universe:    Population 25 years and over
+    Source code: B15002
+    NHGIS code:  JN9
+        JN9M001:     Total
+        JN9M002:     Male
+        JN9M003:     Male: No schooling completed
+        JN9M004:     Male: Nursery to 4th grade
+        JN9M005:     Male: 5th and 6th grade
+        JN9M006:     Male: 7th and 8th grade
+        JN9M007:     Male: 9th grade
+        JN9M008:     Male: 10th grade
+        JN9M009:     Male: 11th grade
+        JN9M010:     Male: 12th grade, no diploma
+        JN9M011:     Male: High school graduate, GED, or alternative
+        JN9M012:     Male: Some college, less than 1 year
+        JN9M013:     Male: Some college, 1 or more years, no degree
+        JN9M014:     Male: Associate's degree
+        JN9M015:     Male: Bachelor's degree
+        JN9M016:     Male: Master's degree
+        JN9M017:     Male: Professional school degree
+        JN9M018:     Male: Doctorate degree
+        JN9M019:     Female
+        JN9M020:     Female: No schooling completed
+        JN9M021:     Female: Nursery to 4th grade
+        JN9M022:     Female: 5th and 6th grade
+        JN9M023:     Female: 7th and 8th grade
+        JN9M024:     Female: 9th grade
+        JN9M025:     Female: 10th grade
+        JN9M026:     Female: 11th grade
+        JN9M027:     Female: 12th grade, no diploma
+        JN9M028:     Female: High school graduate, GED, or alternative
+        JN9M029:     Female: Some college, less than 1 year
+        JN9M030:     Female: Some college, 1 or more years, no degree
+        JN9M031:     Female: Associate's degree
+        JN9M032:     Female: Bachelor's degree
+        JN9M033:     Female: Master's degree
+        JN9M034:     Female: Professional school degree
+        JN9M035:     Female: Doctorate degree
+ 
+    Table 10:    Median Household Income in the Past 12 Months (in 2010 Inflation-Adjusted Dollars) (White Alone Householder)
+    Universe:    Households with a householder who is White alone
+    Source code: B19013A
+    NHGIS code:  JOJ
+        JOJM001:     Median household income in the past 12 months (in 2010 inflation-adjusted dollars)
+ 
+    Table 11:    Median Household Income in the Past 12 Months (in 2010 Inflation-Adjusted Dollars) (Black or African American Alone Householder)
+    Universe:    Households with a householder who is Black or African American alone
+    Source code: B19013B
+    NHGIS code:  JOK
+        JOKM001:     Median household income in the past 12 months (in 2010 inflation-adjusted dollars)
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing NHGIS data (either tabular or GIS)
+  must cite it appropriately. The citation should include the following:
+
+    Steven Manson, Jonathan Schroeder, David Van Riper, and Steven Ruggles. 
+    IPUMS National Historical Geographic Information System: Version 12.0 [Database]. 
+    Minneapolis: University of Minnesota. 2017. 
+    http://doi.org/10.18128/D050.V12.0
+
+* Publications and research reports employing school attendance areas data
+  (either tabular or GIS) must cite it appropriately. The citation should
+  include the following:
+
+    The College of William and Mary and the Minnesota Population Center.
+    School Attendance Boundary Information System (SABINS): Version 1.0.
+    Minneapolis, MN: University of Minnesota 2011.
+
+* For policy briefs or articles in the popular press, we recommend that you cite the use of NHGIS data as follows:
+
+    IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+* If possible, citations involving school attendance areas should also include
+  the URL for the SABINS site:
+
+    http://www.sabinsdata.org/.
+
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+Printed matter should be sent to:
+
+    NHGIS
+    Minnesota Population Center
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
+
+Send electronic material to: nhgis@umn.edu
