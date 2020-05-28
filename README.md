@@ -3,7 +3,7 @@
 A few notes about working with this repository:
 
 - Files called `.keep` are just placeholders for folders. They can be ignored.
-- Use of this repository will require installation of [git lfs](https://git-lfs.github.com/) for managing large files. If you attempt to clone this repository and DON'T have git lfs installed, data files will just be small text files with a random appearing number.
+- Use of this repository will require installation of [git lfs](https://git-lfs.github.com/) for managing large files. If you attempt to clone this repository and DON'T have git lfs installed, data files will just be small text files with a random appearing number. Moreover, `git lfs` will only integrate the actual data if you **clone** the repository (after installing git-lfs). This can be accomplished by openning a terminal, navigating to where you want the project folder to end up, and typing `git clone https://github.com/nickeubank/CEFS_PSRM_PPChangeAndParticipation.git`.
 - To replicate:
     - Open `set_globals.do` and change the global `nc_electioneering` to the path to wherever you have saved this repository. Then choose whether to set the global `sample_size` to `10percent` or `full`. This code takes *forever* to run, so we recommend testing things against the 10percent sample before moving to running against the full sample. Paper results obviously are generated with the full sample.
     - Run `MASTER_RUN_ALL_FILES.do`.
