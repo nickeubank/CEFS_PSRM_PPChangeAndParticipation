@@ -241,7 +241,7 @@ else {
 
 
 
-global output "${nc_electioneering}50_results_$sample_size"
+global output "${nc_electioneering}/50_results_$sample_size"
 
 
 
